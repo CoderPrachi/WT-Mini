@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Home tutors</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container"
+    style="background-color:#f1f1f1;
+    width: 600px;
+    height: 550px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-color: #034d6f;
+    border-width: 5px;
+    border-style: outset;">
+        <div class="row">
+            <div class="col">
+                <h4 style="color: #ff5200;
+                font-size: 22px;
+                font-weight: 700; text-align: center;">
+                  Select Tution Type
+                </h4>
+                <div class="htbs" style="background-color: #fff;
+                padding: 15px;
+                border: 1px solid #d5d5d5; margin-top: 100px">
+                    <p class="mbstyle">Looking for a home tutor who comes to your home to teach? If yes, then select home tuition.</p>
+                    <div id="homeTuitionButtonContainer" class="text-center">
+                        <button id="homeTuitionButton" name="homeTuitionButton" onclick="SelectTuitionType(381847,'home');" type="button" class="btn btn-lg button-style" style="background-color: #F60;
+                        border-color: #ef6103;"><a href="mobileverify.html"> Home Tuition</button></a>
+                        </div>
+                        
+                </div>
+                <div class="htbs" style="background-color: #fff;
+                padding: 15px;
+                border: 1px solid #d5d5d5; margin-top: 50px;">
+                    <p class="mbstyle">Need a tutor who can teach online? If yes, then select online tuition.</p>
+                    <p class="mbstyle"> Internet connection speed of  1 Mbps or more, web cam &amp; headset are needed for online tuition.</p>
+                    <div id="onlineTuitionButtonContainer" class="text-center">
+                        <button id="onlineTuitionButton" name="onlineTuitionButton" onclick="SelectTuitionType(381847,'online');" type="button" class="btn btn-lg button-style active" style="background-color: #F60;
+                        border-color: #ef6103;"><a href="mobileverify.html"> Online tuition</button></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <script src="./js/script.js"></script>     
+                
+</body>
+</html>

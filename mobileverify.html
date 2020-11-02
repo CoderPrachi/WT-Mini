@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Home tutors</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container"
+    style="background-color:#f1f1f1;
+    width: 600px;
+    height: 600px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-color: #034d6f;
+    border-width: 5px;
+    border-style: outset;">
+        <div class="row">
+            <div class="col">
+              
+<form action="/landing/confirmmobile/" class="form-focus form-validation" data-ajax="true" data-ajax-begin="LandingConfirmMobileSubmit" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-success="ConfirmMobileSuccess" data-ajax-update="#rightSideForm" id="landing-page-form" method="post">    <input type="hidden" id="ProfileId" name="ProfileId" value="842523">
+    <input type="hidden" id="Mobile" name="Mobile" value="+917219333841">
+    <div class="get-in-touch">
+        <p class="looking-for" style="color: #ff5200;font-size: 22px;
+        font-weight: 700;text-align: center;margin-bottom: 20px;"> Please Confirm Your Mobile</p>
+    </div>
+        <p style="margin:0px;padding:0px;margin-top: 50px;">We have sent a verification code to your mobile. Please enter code and verify your mobile.</p>
+        <br>
+        <div class="form-group-lp">
+            <div class="">
+                <div class="input-group margin-bottom-sm">
+                    <span class="input-group-addon input-mail-block">
+                        <span class="common-sprite-opt contact-details-phone"></span>
+                    </span>
+                    <input type="tel" 
+                    id="Mobile" 
+                    name="Mobile" 
+                    class="form-control lp-phone-number input-lg  validate[required,custom[phone],funcCall[validateIndianMobileNumber]]" 
+                    placeholder="Mobile Number"
+                    required />
+    
+                </div>
+                <p class="small text-muted">We don't misuse your phone number </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <input id="VerificationCode" 
+            name="VerificationCode" 
+            class="form-control input-lg  validate[required]"
+             type="text" placeholder="Enter Verification Code" 
+             required />
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="">
+                <div class="text-center">
+                    <div id="confirmMobileSubmitButtonContainer" class="text-center">
+                        <button id="landing-confirm-mobile-submit" type="submit" class="btn btn-info btn-orange btn-lg" style="margin-top: 20px;background-color: #F60;
+                        border-color: #ef6103;"> <a href="password.html"> Confirm Mobile</button></a>
+                     </div>
+                    
+                </div>
+            </div>
+        </div>
+                <div class="resend-link" style="margin-top: 50px;">
+            Did not get verification code? please click <a href="#" onclick="resendVerificationCode(842523);"> Resend Verification Code </a>
+        </div>
+        <br>
+        <p class="text-center small">By signing up you agree to our <a href="/home/termsandconditions">Terms and Conditions</a></p><br>
+        <p class="text-center medium">Already a member? <a href="/account/login">Login</a></p>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
